@@ -1,7 +1,7 @@
 import sys
 
 try:
-	if !sys.argv[1].endswith(".py"):
+	if not sys.argv[1].endswith(".py"):
 		print "Sandbox only supports .py files"
 		exit(1)
 	
